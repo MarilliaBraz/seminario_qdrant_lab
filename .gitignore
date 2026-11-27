@@ -1,0 +1,17 @@
+# --- Build do Maven ---
+target/
+
+# --- Modelo de IA (~250 MB): baixado por ./baixar_modelo.sh, não vai para o repositório ---
+modelo/
+
+# --- IDEs e sistema ---
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# --- Backups do padronizar-projeto.sh e ambiente local ---
+*.bak
+.env
+.env.local
+.env.*.local
